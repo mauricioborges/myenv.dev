@@ -26,3 +26,7 @@ command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 
 nnoremap \ :Ag<SPACE>
 
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
