@@ -5,7 +5,8 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-
+cd ~/.vim/bundle
+git clone https://github.com/plasticboy/vim-markdown.git
 mv ~/.vimrc ~/.vimrc.old
 ln -s ~/workspace/myenv.dev/vimrc ~/.vimrc
 
